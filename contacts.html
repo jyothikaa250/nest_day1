@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="jo.jpg" alt="profilepicture">
+    
+        <h1>my portfolio</h1>
+        <p>Learn more about my skills and qualifications</p>
+      </div>
+    
+    
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="skill.html">Skills</a>
+        <a href="contact.html">Contacts</a>
+      </div>
+
+      <section id="contact" style="padding: 40px 20px; max-width: 1200px; margin: 0 auto;">
+        <h2 style="color: #333;">Contact Me</h2>
+        <p>If you would like to get in touch, please fill out the form below:</p>
+        <form action="your_form_processing_script.php" method="POST">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block;">Your Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-top: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="phone" style="display: block;">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 10px; margin-top: 5px;">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block;">Your Message:</label>
+                <textarea id="message" name="message" required style="width: 100%; padding: 10px; margin-top: 5px; height: 150px;"></textarea>
+            </div>
+            <button type="submit" style="background-color: #333; color: #fff; padding: 10px 20px; border: none; cursor: pointer;">Send Message</button>
+        </form>
+    </section>
+    
+
+</body>
+</html>
